@@ -1,0 +1,1594 @@
+{
+    "ContextRoot": {},
+    "UriConverter": {},
+    "ContextBuilder": {},
+    "ContextLocator": {},
+    "AnalysisContextCollection": {},
+    "AnalysisResult": {},
+    "AnalysisResultWithErrors": {},
+    "ElementDeclarationResult": {},
+    "ErrorsResult": {},
+    "FileResult": {},
+    "ParsedLibraryResult": {},
+    "ParsedUnitResult": {},
+    "ParseResult": {},
+    "ResolvedLibraryResult": {},
+    "ResolvedUnitResult": {},
+    "ResolveResult": {},
+    "UnitElementResult": {},
+    "AnalysisContext": {},
+    "DeclaredVariables": {},
+    "AnalysisSession": {},
+    "DartType": {
+        "MockType": {
+            "MockInterfaceType": {}
+        }
+    },
+    "FunctionType": {},
+    "InterfaceType": {},
+    "ParameterizedType": {},
+    "TypeParameterType": {},
+    "TypeSystem": {
+        "Dart2TypeSystem": {
+            "StrongTypeSystemImpl": {}
+        }
+    },
+    "ClassElement": {},
+    "ClassMemberElement": {},
+    "CompilationUnitElement": {},
+    "ConstructorElement": {},
+    "Element": {},
+    "ElementAnnotation": {},
+    "ElementKind": {},
+    "ElementLocation": {},
+    "ElementVisitor": {},
+    "ExecutableElement": {},
+    "ExportElement": {},
+    "FieldElement": {},
+    "FieldFormalParameterElement": {},
+    "FunctionElement": {},
+    "FunctionTypeAliasElement": {},
+    "FunctionTypedElement": {},
+    "GenericFunctionTypeElement": {},
+    "GenericTypeAliasElement": {},
+    "HideElementCombinator": {},
+    "ImportElement": {},
+    "LabelElement": {},
+    "LibraryElement": {},
+    "LocalElement": {},
+    "LocalVariableElement": {},
+    "MethodElement": {},
+    "MultiplyDefinedElement": {},
+    "MultiplyInheritedExecutableElement": {},
+    "NamespaceCombinator": {},
+    "ParameterElement": {},
+    "PrefixElement": {},
+    "PropertyAccessorElement": {},
+    "PropertyInducingElement": {},
+    "ShowElementCombinator": {},
+    "TopLevelVariableElement": {},
+    "TypeDefiningElement": {},
+    "TypeParameterElement": {},
+    "TypeParameterizedElement": {},
+    "UndefinedElement": {},
+    "UriReferencedElement": {},
+    "VariableElement": {},
+    "GeneralizingElementVisitor": {
+        "_HasTypedefSelfReferenceVisitor": {},
+        "_ContainingElementFinder": {}
+    },
+    "RecursiveElementVisitor": {},
+    "SimpleElementVisitor": {},
+    "ThrowingElementVisitor": {},
+    "DartObject": {},
+    "ResolutionMap": {},
+    "AssertInitializer": {},
+    "Assertion": {},
+    "AssertStatement": {},
+    "AstNode": {
+        "AnnotatedNode": {
+            "Declaration": {
+                "ClassMember": {
+                    "ConstructorDeclaration": {},
+                    "FieldDeclaration": {},
+                    "MethodDeclaration": {}
+                },
+                "CompilationUnitMember": {
+                    "NamedCompilationUnitMember": {
+                        "ClassOrMixinDeclaration": {
+                            "ClassDeclaration": {},
+                            "MixinDeclaration": {}
+                        },
+                        "EnumDeclaration": {},
+                        "FunctionDeclaration": {},
+                        "TypeAlias": {
+                            "ClassTypeAlias": {},
+                            "FunctionTypeAlias": {},
+                            "GenericTypeAlias": {}
+                        }
+                    },
+                    "TopLevelVariableDeclaration": {}
+                },
+                "DeclaredIdentifier": {},
+                "EnumConstantDeclaration": {},
+                "TypeParameter": {},
+                "VariableDeclaration": {}
+            },
+            "Directive": {
+                "LibraryDirective": {},
+                "PartOfDirective": {},
+                "UriBasedDirective": {
+                    "NamespaceDirective": {
+                        "ExportDirective": {},
+                        "ImportDirective": {}
+                    },
+                    "PartDirective": {}
+                }
+            },
+            "VariableDeclarationList": {}
+        },
+        "Annotation": {},
+        "ArgumentList": {},
+        "CatchClause": {},
+        "Combinator": {
+            "HideCombinator": {},
+            "ShowCombinator": {}
+        },
+        "Comment": {},
+        "CommentReference": {},
+        "CompilationUnit": {},
+        "Configuration": {},
+        "ConstructorInitializer": {
+            "ConstructorFieldInitializer": {},
+            "RedirectingConstructorInvocation": {},
+            "SuperConstructorInvocation": {}
+        },
+        "ConstructorName": {},
+        "DottedName": {},
+        "Expression": {
+            "AsExpression": {},
+            "AssignmentExpression": {},
+            "AwaitExpression": {},
+            "BinaryExpression": {},
+            "CascadeExpression": {},
+            "ConditionalExpression": {},
+            "FunctionExpression": {},
+            "Identifier": {
+                "LibraryIdentifier": {},
+                "PrefixedIdentifier": {},
+                "SimpleIdentifier": {}
+            },
+            "IndexExpression": {},
+            "InstanceCreationExpression": {},
+            "InvocationExpression": {
+                "FunctionExpressionInvocation": {},
+                "MethodInvocation": {}
+            },
+            "IsExpression": {},
+            "Literal": {
+                "BooleanLiteral": {},
+                "DoubleLiteral": {},
+                "IntegerLiteral": {},
+                "NullLiteral": {},
+                "StringLiteral": {
+                    "AdjacentStrings": {},
+                    "SingleStringLiteral": {
+                        "SimpleStringLiteral": {},
+                        "StringInterpolation": {}
+                    }
+                },
+                "SymbolLiteral": {},
+                "TypedLiteral": {
+                    "ListLiteral": {},
+                    "MapLiteral": {},
+                    "SetLiteral": {}
+                }
+            },
+            "NamedExpression": {},
+            "ParenthesizedExpression": {},
+            "PostfixExpression": {},
+            "PrefixExpression": {},
+            "PropertyAccess": {},
+            "RethrowExpression": {},
+            "SuperExpression": {},
+            "ThisExpression": {},
+            "ThrowExpression": {}
+        },
+        "ExtendsClause": {},
+        "FormalParameter": {
+            "DefaultFormalParameter": {},
+            "NormalFormalParameter": {
+                "FieldFormalParameter": {},
+                "FunctionTypedFormalParameter": {},
+                "SimpleFormalParameter": {}
+            }
+        },
+        "FormalParameterList": {},
+        "FunctionBody": {
+            "BlockFunctionBody": {},
+            "EmptyFunctionBody": {},
+            "ExpressionFunctionBody": {},
+            "NativeFunctionBody": {}
+        },
+        "ImplementsClause": {},
+        "InterpolationElement": {
+            "InterpolationExpression": {},
+            "InterpolationString": {}
+        },
+        "Label": {},
+        "MapLiteralEntry": {},
+        "NativeClause": {},
+        "OnClause": {},
+        "ScriptTag": {},
+        "Statement": {
+            "Block": {},
+            "BreakStatement": {},
+            "ContinueStatement": {},
+            "DoStatement": {},
+            "EmptyStatement": {},
+            "ExpressionStatement": {},
+            "ForEachStatement": {},
+            "ForStatement": {},
+            "FunctionDeclarationStatement": {},
+            "IfStatement": {},
+            "LabeledStatement": {},
+            "ReturnStatement": {},
+            "SwitchStatement": {},
+            "TryStatement": {},
+            "VariableDeclarationStatement": {},
+            "WhileStatement": {},
+            "YieldStatement": {}
+        },
+        "SwitchMember": {
+            "SwitchCase": {},
+            "SwitchDefault": {}
+        },
+        "TypeAnnotation": {
+            "GenericFunctionType": {},
+            "NamedType": {
+                "TypeName": {}
+            }
+        },
+        "TypeArgumentList": {},
+        "TypeParameterList": {},
+        "WithClause": {}
+    },
+    "AstVisitor": {},
+    "ConstructorReferenceNode": {},
+    "MethodReferenceExpression": {},
+    "NodeList": {},
+    "GeneralizingAstVisitor": {
+        "BreadthFirstVisitor": {},
+        "ExitDetector": {},
+        "ResolutionEraser": {},
+        "_SourceVisitor": {},
+        "_IndexContributor": {},
+        "_ReferencedNamesComputer": {},
+        "ConstantEvaluator": {},
+        "ElementLocator_ElementMapper": {},
+        "ScopedNameFinder": {}
+    },
+    "RecursiveAstVisitor": {
+        "BestPracticesVerifier": {},
+        "Dart2JSVerifier": {},
+        "DeadCodeVerifier": {},
+        "EnumMemberBuilder": {},
+        "GatherUsedImportedElementsVisitor": {},
+        "GatherUsedLocalElementsVisitor": {},
+        "OverrideVerifier": {},
+        "UnusedLocalElementsVerifier": {},
+        "_ResolverVisitor_isVariableAccessedInClosure": {},
+        "_ResolverVisitor_isVariablePotentiallyMutatedIn": {},
+        "ErrorVerifier": {},
+        "RequiredConstantsComputer": {},
+        "_InvocationCollector": {},
+        "_UninstantiatedBoundChecker": {},
+        "_DeclaredIdentifiersByNameFinder": {},
+        "_ElementsByNameFinder": {},
+        "DeclarationResolver": {},
+        "SdkLibrariesReader_LibraryBuilder": {},
+        "SdkConstraintVerifier": {},
+        "LinterVisitor": {},
+        "_ImportElementReferencesVisitor": {},
+        "_LocalReferencesVisitor": {},
+        "_BaseElementBuilder": {
+            "ApiElementBuilder": {
+                "ElementBuilder": {}
+            },
+            "LocalElementBuilder": {}
+        },
+        "ConstantVerifier": {},
+        "ConstantExpressionsDependenciesFinder": {},
+        "ConstantFinder": {},
+        "ReferenceFinder": {},
+        "DeferredLibraryReferenceDetector": {},
+        "MixinSuperInvokedNamesCollector": {},
+        "CodeChecker": {},
+        "_TopLevelInitializerValidator": {},
+        "VariableGatherer": {},
+        "_SummarizeAstVisitor": {},
+        "_PublicNamespaceVisitor": {}
+    },
+    "SimpleAstVisitor": {
+        "DirectiveResolver": {},
+        "StaticTypeAnalyzer": {},
+        "ElementResolver": {},
+        "DirectiveElementBuilder": {},
+        "_NamespaceCombinatorBuilder": {},
+        "_CombinatorEncoder": {}
+    },
+    "ThrowingAstVisitor": {},
+    "TimedAstVisitor": {},
+    "UnifyingAstVisitor": {
+        "DelegatingAstVisitor": {
+            "ExceptionHandlingDelegatingAstVisitor": {}
+        },
+        "_BreadthFirstChildVisitor": {},
+        "ScopedVisitor": {
+            "AstRewriteVisitor": {},
+            "ResolverVisitor": {
+                "InstanceFieldResolverVisitor": {},
+                "PartialResolverVisitor": {}
+            },
+            "TypeResolverVisitor": {},
+            "VariableResolverVisitor": {}
+        },
+        "_ClassNotExecutableElementsBuilder": {},
+        "ConstantVisitor": {
+            "_ConstantVerifier_validateInitializerExpression": {}
+        },
+        "NodeLocator": {},
+        "NodeLocator2": {}
+    },
+    "AstFactory": {
+        "AstFactoryImpl": {}
+    },
+    "EmbedderUriResolver": {},
+    "LineInfo": {},
+    "SourceRange": {},
+    "ErrorConfig": {},
+    "ErrorProcessor": {},
+    "_StrongModeTypeErrorProcessor": {},
+    "OverlayResourceProvider": {},
+    "_OverlayResource": {
+        "_OverlayFile": {},
+        "_OverlayFolder": {}
+    },
+    "MemoryResourceProvider": {},
+    "_MemoryResource": {
+        "_MemoryDummyLink": {},
+        "_MemoryFile": {},
+        "_MemoryFolder": {}
+    },
+    "PhysicalResourceProvider": {},
+    "_PhysicalResource": {
+        "_PhysicalFile": {},
+        "_PhysicalFolder": {}
+    },
+    "File": {},
+    "FileSystemException": {},
+    "Folder": {},
+    "Resource": {},
+    "ResourceProvider": {},
+    "AnalysisPerformanceKind": {},
+    "InstrumentationServer": {},
+    "InstrumentationService": {},
+    "MulticastInstrumentationServer": {},
+    "PluginData": {},
+    "FileInstrumentationServer": {},
+    "AnalysisError": {},
+    "AnalysisErrorListener": {
+        "_ErrorCollector": {},
+        "ConstantAnalysisErrorListener": {}
+    },
+    "BooleanErrorListener": {},
+    "ErrorReporter": {},
+    "RecordingErrorListener": {},
+    "_NullErrorListener": {},
+    "_TypeToConvert": {},
+    "AnalysisException": {
+        "InconsistentAnalysisException": {},
+        "_ElementMismatchException": {},
+        "ObsoleteSourceAnalysisException": {},
+        "InfiniteTaskLoopException": {}
+    },
+    "CaughtException": {},
+    "CommentAndMetadata": {},
+    "FinalConstVarOrType": {},
+    "Modifiers": {},
+    "Parser": {},
+    "_TooDeepTreeError": {},
+    "BuildLibraryElementUtils": {},
+    "ElementHolder": {},
+    "ImportsVerifier": {},
+    "InferenceContext": {},
+    "INIT_STATE": {},
+    "RedirectingConstructorKind": {},
+    "ToDoFinder": {},
+    "TypeNameResolver": {},
+    "TypeOverrideManager": {},
+    "TypeOverrideManager_TypeOverrideScope": {},
+    "TypeParameterBoundsResolver": {},
+    "TypePromotionManager": {},
+    "TypePromotionManager_TypePromoteScope": {},
+    "TypeProvider": {},
+    "TypeProviderBase": {
+        "TypeProviderImpl": {},
+        "TestTypeProvider": {},
+        "TypeProviderForLink": {},
+        "SummaryTypeProvider": {}
+    },
+    "UsedImportedElements": {},
+    "UsedLocalElements": {},
+    "_InvalidAccessVerifier": {},
+    "_LabelTracker": {},
+    "GenericInferrer": {},
+    "TypeSystem": {
+        "Dart2TypeSystem": {
+            "StrongTypeSystemImpl": {}
+        }
+    },
+    "_TypeConstraintOrigin": {
+        "_TypeConstraintFromArgument": {},
+        "_TypeConstraintFromExtendsClause": {},
+        "_TypeConstraintFromFunctionContext": {},
+        "_TypeConstraintFromReturnType": {}
+    },
+    "_TypeRange": {
+        "_TypeConstraint": {}
+    },
+    "FileUtilities2": {},
+    "OSUtilities": {},
+    "JavaFile": {},
+    "JavaSystemIO": {},
+    "ConstantEvaluator": {},
+    "Character": {},
+    "Enum": {},
+    "PrintWriter": {
+        "PrintStringWriter": {}
+    },
+    "MappedInterner": {},
+    "LocalSourcePredicate": {},
+    "LocalSourcePredicate_FALSE": {},
+    "LocalSourcePredicate_NOT_SDK": {},
+    "LocalSourcePredicate_TRUE": {},
+    "HiddenElements": {},
+    "ParserAdapter": {
+        "_Parser2": {}
+    },
+    "WeakReference": {},
+    "AstTestFactory": {},
+    "ElementFactory": {},
+    "TokenFactory": {},
+    "ElementWalker": {},
+    "JenkinsSmiHash": {},
+    "PerformanceTag": {},
+    "_PerformanceTagImpl": {},
+    "AnalysisContext": {},
+    "AnalysisDelta": {},
+    "AnalysisEngine": {},
+    "AnalysisErrorInfo": {},
+    "AnalysisErrorInfoImpl": {},
+    "AnalysisLevel": {},
+    "AnalysisListener": {},
+    "AnalysisNotScheduledError": {},
+    "AnalysisOptions": {},
+    "AnalysisOptionsImpl": {},
+    "AnalysisResult": {},
+    "CacheConsistencyValidationStatistics": {},
+    "CacheConsistencyValidator": {},
+    "CacheState": {},
+    "ChangeNotice": {},
+    "ChangeNoticeImpl": {},
+    "ChangeSet": {},
+    "ChangeSet_ContentChange": {},
+    "ComputedResult": {},
+    "ImplicitAnalysisEvent": {},
+    "InternalAnalysisContext": {},
+    "Logger": {
+        "StdLogger": {}
+    },
+    "NullLogger": {},
+    "PerformanceStatistics": {},
+    "ResultChangedEvent": {},
+    "SourcesChangedEvent": {},
+    "BooleanArray": {},
+    "MapIterator": {},
+    "MultipleMapIterator": {},
+    "SingleMapIterator": {},
+    "TokenMap": {},
+    "TimestampedData": {},
+    "DartSdk": {},
+    "DartSdkManager": {},
+    "LibraryMap": {},
+    "SdkDescription": {},
+    "SdkLibrary": {},
+    "SdkLibraryImpl": {},
+    "ContentCache": {},
+    "LineInfo_Location": {
+        "CharacterLocation": {}
+    },
+    "LocalSourcePredicate": {},
+    "LocalSourcePredicate_FALSE": {},
+    "LocalSourcePredicate_NOT_SDK": {},
+    "LocalSourcePredicate_TRUE": {},
+    "Source": {
+        "FileBasedSource": {},
+        "BasicSource": {
+            "InSummarySource": {}
+        },
+        "NonExistingSource": {},
+        "FileSource": {},
+        "StringSource": {}
+    },
+    "Source_ContentReceiver": {},
+    "SourceContainer": {},
+    "SourceFactory": {},
+    "SourceKind": {},
+    "UriKind": {},
+    "UriResolver": {
+        "ExplicitSourceResolver": {},
+        "FileUriResolver": {},
+        "PackageUriResolver": {},
+        "RelativeFileUriResolver": {},
+        "CustomUriResolver": {},
+        "DartUriResolver": {},
+        "BazelPackageUriResolver": {},
+        "PackageBuildPackageUriResolver": {},
+        "PackageMapUriResolver": {},
+        "SdkExtUriResolver": {},
+        "ResourceUriResolver": {
+            "BazelFileUriResolver": {},
+            "PackageBuildFileUriResolver": {}
+        },
+        "InSummaryPackageUriResolver": {},
+        "InSummaryUriResolver": {}
+    },
+    "ResolutionContext": {},
+    "ResolutionContextBuilder": {},
+    "ParameterKind": {},
+    "AbstractDartSdk": {
+        "EmbedderSdk": {},
+        "FolderBasedDartSdk": {}
+    },
+    "SdkLibrariesReader": {},
+    "FileNameUtilities": {},
+    "StringUtilities": {},
+    "UUID": {},
+    "SdkConstraintExtractor": {},
+    "MockSdk": {},
+    "_MockSdkLibrary": {},
+    "Spelunker": {},
+    "_ErrorListener": {},
+    "DriverOptions": {
+        "LinterOptions": {}
+    },
+    "LintDriver": {},
+    "NodeLintRegistry": {},
+    "_Subscription": {},
+    "PSDependency": {
+        "_PSDependency": {}
+    },
+    "PSDependencyList": {
+        "_PSDependencyList": {}
+    },
+    "PSEntry": {},
+    "PSGitRepo": {},
+    "PSHost": {},
+    "PSNode": {},
+    "PSNodeList": {
+        "_PSNodeList": {}
+    },
+    "Pubspec": {},
+    "PubspecVisitor": {},
+    "_PSGitRepo": {},
+    "_PSHost": {},
+    "_PSNode": {},
+    "_Pubspec": {},
+    "_StringBuilder": {},
+    "LintConfig": {},
+    "RuleConfig": {
+        "_RuleConfig": {}
+    },
+    "_LintConfig": {},
+    "CamelCaseString": {},
+    "DartLinter": {},
+    "Group": {},
+    "Hyperlink": {},
+    "LinterContext": {},
+    "LinterContextImpl": {},
+    "LinterContextUnit": {},
+    "LinterException": {},
+    "LintFilter": {
+        "FileGlobFilter": {}
+    },
+    "Maturity": {},
+    "NodeLintRule": {
+        "NodeLintRuleWithContext": {}
+    },
+    "PrintingReporter": {},
+    "Reporter": {},
+    "SourceLinter": {},
+    "Registry": {},
+    "DartProject": {},
+    "ProjectVisitor": {},
+    "_ApiModel": {},
+    "AnalysisOptionsProvider": {},
+    "OptionsFormatException": {},
+    "ContextRoot": {},
+    "ContextBuilder": {},
+    "ContextBuilderOptions": {},
+    "EmbedderYamlLocator": {},
+    "AnalysisCache": {},
+    "CacheEntry": {},
+    "CacheFlushManager": {
+        "UnlimitedCacheFlushManager": {}
+    },
+    "CachePartition": {
+        "PackageCachePartition": {},
+        "SdkCachePartition": {},
+        "UniversalCachePartition": {}
+    },
+    "Delta": {},
+    "InvalidatedResult": {},
+    "ReentrantSynchronousStream": {},
+    "ReentrantSynchronousStreamSubscription": {},
+    "ResultData": {},
+    "AnalysisContextImpl": {
+        "_SdkAnalysisContext": {},
+        "SdkAnalysisContext": {}
+    },
+    "AnalysisFutureHelper": {},
+    "CacheConsistencyValidatorImpl": {},
+    "PartitionManager": {},
+    "PendingFuture": {},
+    "ResultProvider": {
+        "ResynthesizerResultProvider": {
+            "InputPackagesResultProvider": {}
+        }
+    },
+    "SourceFactoryImpl": {},
+    "Merger": {},
+    "LRUMap": {},
+    "Glob": {},
+    "ContextRootImpl": {},
+    "PerformanceLog": {},
+    "PerformanceLogSection": {},
+    "DriverBasedAnalysisContext": {},
+    "IndexElementInfo": {},
+    "_ElementInfo": {},
+    "_ElementRelationInfo": {},
+    "_IndexAssembler": {},
+    "_NameRelationInfo": {},
+    "_StringInfo": {},
+    "_SubtypeInfo": {},
+    "DriverBasedUriConverter": {},
+    "Mutex": {},
+    "AnalysisStatus": {},
+    "Monitor": {},
+    "StatusSupport": {},
+    "ContextBuilderImpl": {},
+    "Cache": {},
+    "DefinedNames": {},
+    "_LocalNameScope": {},
+    "EnableString": {},
+    "ExperimentStatus": {},
+    "IsEnabledByDefault": {},
+    "IsExpired": {},
+    "ContextLocatorImpl": {},
+    "CacheCleanUpRequest": {},
+    "EvictingFileByteStore": {},
+    "FileByteStore": {},
+    "FileByteStoreValidator": {},
+    "FuturePool": {},
+    "Combinator": {
+        "HideCombinator": {},
+        "ShowCombinator": {}
+    },
+    "Export": {},
+    "Import": {},
+    "Library": {},
+    "_LibraryBuilder": {},
+    "ClassMemberReference": {},
+    "Dependencies": {},
+    "LibraryQualifiedName": {},
+    "Node": {
+        "ConstNode": {
+            "ConstConstructorNode": {},
+            "ConstParameterNode": {},
+            "ConstVariableNode": {}
+        },
+        "LibraryCycleNode": {},
+        "LibraryNode": {},
+        "SimplyBoundedNode": {},
+        "TypeInferenceNode": {}
+    },
+    "ReferenceCollector": {},
+    "_ClassMemberReferenceSet": {},
+    "_LocalScopes": {},
+    "_NameSet": {},
+    "_ReferencedImportPrefixedNames": {},
+    "AnalysisDriver": {},
+    "AnalysisDriverGeneric": {},
+    "AnalysisDriverScheduler": {},
+    "AnalysisDriverTestView": {},
+    "DriverPerformance": {},
+    "DriverWatcher": {},
+    "ExceptionResult": {},
+    "_DiscoverAvailableFilesTask": {},
+    "_ExceptionState": {},
+    "_FilesDefiningClassMemberNameTask": {},
+    "_FilesReferencingNameTask": {},
+    "_TopLevelNameDeclarationsTask": {},
+    "LibraryContext": {},
+    "TopLevelDeclaration": {},
+    "TopLevelDeclarationInSource": {},
+    "AnalysisContextCollectionImpl": {},
+    "AnalysisResultImpl": {
+        "FileResultImpl": {
+            "ErrorsResultImpl": {},
+            "ParsedUnitResultImpl": {},
+            "ResolvedUnitResultImpl": {
+                "AnalysisResult": {}
+            }
+        },
+        "ParsedLibraryResultImpl": {},
+        "ResolvedLibraryResultImpl": {},
+        "UnitElementResultImpl": {}
+    },
+    "ElementDeclarationResultImpl": {},
+    "LibraryAnalyzer": {},
+    "UnitAnalysisResult": {},
+    "_NameOrSource": {},
+    "ByteStore": {},
+    "MemoryByteStore": {},
+    "MemoryCachingByteStore": {},
+    "NullByteStore": {},
+    "AnalysisSessionHelper": {},
+    "RestrictedAnalysisContext": {},
+    "Declaration": {
+        "ClassMember": {
+            "ConstructorDeclaration": {},
+            "FieldDeclaration": {},
+            "MethodDeclaration": {}
+        },
+        "CompilationUnitMember": {
+            "NamedCompilationUnitMember": {
+                "ClassOrMixinDeclaration": {
+                    "ClassDeclaration": {},
+                    "MixinDeclaration": {}
+                },
+                "EnumDeclaration": {},
+                "FunctionDeclaration": {},
+                "TypeAlias": {
+                    "ClassTypeAlias": {},
+                    "FunctionTypeAlias": {},
+                    "GenericTypeAlias": {}
+                }
+            },
+            "TopLevelVariableDeclaration": {}
+        },
+        "DeclaredIdentifier": {},
+        "EnumConstantDeclaration": {},
+        "TypeParameter": {},
+        "VariableDeclaration": {}
+    },
+    "Search": {},
+    "SearchedFiles": {},
+    "SearchResult": {},
+    "SubtypeResult": {},
+    "_IndexRequest": {},
+    "_MaxNumberOfDeclarationsError": {},
+    "_UnlinkedParameterComposer": {},
+    "LibraryCycle": {},
+    "AnalysisSessionImpl": {},
+    "FileContentOverlay": {},
+    "FileState": {},
+    "FileStateTestView": {},
+    "FileSystemState": {},
+    "FileSystemStateTestView": {},
+    "_ExportedDeclarations": {},
+    "_FileContent": {},
+    "_FileContentCache": {},
+    "FileTracker": {},
+    "ConflictingFlagLists": {},
+    "ExperimentalFeature": {},
+    "ValidationResult": {
+        "ConflictingFlags": {},
+        "IllegalUseOfExpiredFlag": {},
+        "UnnecessaryUseOfExpiredFlag": {},
+        "UnrecognizedFlag": {}
+    },
+    "TypeImpl": {
+        "UnknownInferredType": {},
+        "BottomTypeImpl": {},
+        "DynamicTypeImpl": {
+            "CircularFunctionTypeImpl": {},
+            "CircularTypeImpl": {}
+        },
+        "FunctionTypeImpl": {
+            "_FunctionTypeImplLazy": {
+                "DeferredFunctionTypeImpl": {}
+            },
+            "_FunctionTypeImplStrict": {}
+        },
+        "InterfaceTypeImpl": {},
+        "TypeParameterTypeImpl": {},
+        "UndefinedTypeImpl": {},
+        "VoidTypeImpl": {}
+    },
+    "VoidType": {},
+    "CompilationUnitBuilder": {},
+    "AuxiliaryElements": {},
+    "ElementAnnotationImpl": {},
+    "ElementImpl": {
+        "UnknownInferredTypeElement": {},
+        "AbstractClassElementImpl": {
+            "ClassElementImpl": {
+                "MixinElementImpl": {}
+            },
+            "EnumElementImpl": {}
+        },
+        "DynamicElementImpl": {},
+        "ExecutableElementImpl": {
+            "ConstructorElementImpl": {},
+            "FunctionElementImpl": {
+                "FunctionElementImpl_forFunctionTypedParameter": {},
+                "FunctionElementImpl_forLUB": {}
+            },
+            "MethodElementImpl": {
+                "MultiplyInheritedMethodElementImpl": {}
+            },
+            "PropertyAccessorElementImpl": {
+                "MultiplyInheritedPropertyAccessorElementImpl": {},
+                "PropertyAccessorElementImpl_ImplicitGetter": {},
+                "PropertyAccessorElementImpl_ImplicitSetter": {}
+            }
+        },
+        "GenericFunctionTypeElementImpl": {},
+        "GenericTypeAliasElementImpl": {},
+        "LabelElementImpl": {},
+        "LibraryElementImpl": {},
+        "PrefixElementImpl": {},
+        "TypeParameterElementImpl": {},
+        "UriReferencedElementImpl": {
+            "CompilationUnitElementImpl": {},
+            "ExportElementImpl": {},
+            "ImportElementImpl": {}
+        },
+        "VariableElementImpl": {
+            "NonParameterVariableElementImpl": {
+                "LocalVariableElementImpl": {
+                    "ConstLocalVariableElementImpl": {}
+                },
+                "PropertyInducingElementImpl": {
+                    "FieldElementImpl": {
+                        "ConstFieldElementImpl": {
+                            "ConstFieldElementImpl_ofEnum": {
+                                "ConstFieldElementImpl_EnumValue": {},
+                                "ConstFieldElementImpl_EnumValues": {}
+                            }
+                        }
+                    },
+                    "TopLevelVariableElementImpl": {
+                        "ConstTopLevelVariableElementImpl": {}
+                    }
+                }
+            },
+            "ParameterElementImpl": {
+                "DefaultParameterElementImpl": {},
+                "FieldFormalParameterElementImpl": {
+                    "DefaultFieldFormalParameterElementImpl": {}
+                },
+                "ParameterElementImpl_ofImplicitSetter": {}
+            }
+        }
+    },
+    "ElementLocationImpl": {},
+    "FunctionTypedElementImpl": {},
+    "HideElementCombinatorImpl": {},
+    "LibraryResynthesizerContext": {},
+    "Modifier": {},
+    "MultiplyDefinedElementImpl": {},
+    "ResynthesizerContext": {},
+    "ShowElementCombinatorImpl": {},
+    "TypeParameterSerializationContext": {},
+    "UnitExplicitTopLevelAccessors": {},
+    "UnitExplicitTopLevelVariables": {},
+    "Member": {
+        "ExecutableMember": {
+            "ConstructorMember": {},
+            "FunctionMember": {},
+            "MethodMember": {},
+            "PropertyAccessorMember": {}
+        },
+        "TypeParameterMember": {},
+        "VariableMember": {
+            "FieldMember": {},
+            "ParameterMember": {
+                "FieldFormalParameterMember": {}
+            }
+        }
+    },
+    "Conflict": {},
+    "InheritanceManager2": {},
+    "Interface": {},
+    "Name": {},
+    "WrappedCompilationUnitElement": {},
+    "WrappedImportElement": {},
+    "WrappedLibraryElement": {},
+    "ElementHandle": {
+        "ClassElementHandle": {},
+        "CompilationUnitElementHandle": {},
+        "ExecutableElementHandle": {
+            "ConstructorElementHandle": {},
+            "FunctionElementHandle": {
+                "_DeferredInitializerElement": {}
+            },
+            "MethodElementHandle": {},
+            "PropertyAccessorElementHandle": {}
+        },
+        "ExportElementHandle": {},
+        "FunctionTypeAliasElementHandle": {},
+        "GenericTypeAliasElementHandle": {},
+        "ImportElementHandle": {},
+        "LabelElementHandle": {},
+        "LibraryElementHandle": {},
+        "PrefixElementHandle": {},
+        "TypeParameterElementHandle": {},
+        "VariableElementHandle": {
+            "LocalVariableElementHandle": {},
+            "ParameterElementHandle": {},
+            "PropertyInducingElementHandle": {
+                "FieldElementHandle": {},
+                "TopLevelVariableElementHandle": {}
+            }
+        }
+    },
+    "ElementResynthesizer": {
+        "SummaryResynthesizer": {
+            "StoreBasedSummaryResynthesizer": {}
+        }
+    },
+    "ConstantEvaluationEngine": {},
+    "ConstantEvaluationValidator": {},
+    "ConstantEvaluationValidator_ForProduction": {},
+    "DartObjectComputer": {},
+    "EvaluationResult": {},
+    "EvaluationResultImpl": {},
+    "ConstructorInvocation": {},
+    "DartObjectImpl": {},
+    "EvaluationException": {},
+    "InstanceState": {
+        "BoolState": {},
+        "DynamicState": {},
+        "FunctionState": {},
+        "GenericState": {},
+        "ListState": {},
+        "MapState": {},
+        "NullState": {},
+        "NumState": {
+            "DoubleState": {},
+            "IntState": {}
+        },
+        "SetState": {},
+        "StringState": {},
+        "SymbolState": {},
+        "TypeState": {}
+    },
+    "SdkPatcher": {},
+    "AbstractDartSdk": {
+        "EmbedderSdk": {},
+        "FolderBasedDartSdk": {}
+    },
+    "SdkExtensionFinder": {},
+    "SdkLibrariesReader": {},
+    "ResolutionMapImpl": {},
+    "AstNodeImpl": {
+        "AnnotatedNodeImpl": {
+            "DeclarationImpl": {
+                "ClassMemberImpl": {
+                    "ConstructorDeclarationImpl": {},
+                    "FieldDeclarationImpl": {},
+                    "MethodDeclarationImpl": {}
+                },
+                "CompilationUnitMemberImpl": {
+                    "NamedCompilationUnitMemberImpl": {
+                        "ClassOrMixinDeclarationImpl": {
+                            "ClassDeclarationImpl": {},
+                            "MixinDeclarationImpl": {}
+                        },
+                        "EnumDeclarationImpl": {},
+                        "FunctionDeclarationImpl": {},
+                        "TypeAliasImpl": {
+                            "ClassTypeAliasImpl": {},
+                            "FunctionTypeAliasImpl": {},
+                            "GenericTypeAliasImpl": {}
+                        }
+                    },
+                    "TopLevelVariableDeclarationImpl": {}
+                },
+                "DeclaredIdentifierImpl": {},
+                "EnumConstantDeclarationImpl": {},
+                "TypeParameterImpl": {},
+                "VariableDeclarationImpl": {}
+            },
+            "DirectiveImpl": {
+                "LibraryDirectiveImpl": {},
+                "PartOfDirectiveImpl": {},
+                "UriBasedDirectiveImpl": {
+                    "NamespaceDirectiveImpl": {
+                        "ExportDirectiveImpl": {},
+                        "ImportDirectiveImpl": {}
+                    },
+                    "PartDirectiveImpl": {}
+                }
+            },
+            "VariableDeclarationListImpl": {}
+        },
+        "AnnotationImpl": {},
+        "ArgumentListImpl": {},
+        "CatchClauseImpl": {},
+        "CombinatorImpl": {
+            "HideCombinatorImpl": {},
+            "ShowCombinatorImpl": {}
+        },
+        "CommentImpl": {},
+        "CommentReferenceImpl": {},
+        "CompilationUnitImpl": {},
+        "ConfigurationImpl": {},
+        "ConstructorInitializerImpl": {
+            "AssertInitializerImpl": {},
+            "ConstructorFieldInitializerImpl": {},
+            "RedirectingConstructorInvocationImpl": {},
+            "SuperConstructorInvocationImpl": {}
+        },
+        "ConstructorNameImpl": {},
+        "DottedNameImpl": {},
+        "ExpressionImpl": {
+            "AsExpressionImpl": {},
+            "AssignmentExpressionImpl": {},
+            "AwaitExpressionImpl": {},
+            "BinaryExpressionImpl": {},
+            "CascadeExpressionImpl": {},
+            "ConditionalExpressionImpl": {},
+            "FunctionExpressionImpl": {},
+            "IdentifierImpl": {
+                "SyntheticIdentifier": {},
+                "LibraryIdentifierImpl": {},
+                "PrefixedIdentifierImpl": {},
+                "SimpleIdentifierImpl": {
+                    "DeclaredSimpleIdentifier": {},
+                    "EphemeralIdentifier": {}
+                }
+            },
+            "IndexExpressionImpl": {},
+            "InstanceCreationExpressionImpl": {},
+            "InvocationExpressionImpl": {
+                "FunctionExpressionInvocationImpl": {},
+                "MethodInvocationImpl": {}
+            },
+            "IsExpressionImpl": {},
+            "LiteralImpl": {
+                "BooleanLiteralImpl": {},
+                "DoubleLiteralImpl": {},
+                "IntegerLiteralImpl": {},
+                "NullLiteralImpl": {},
+                "StringLiteralImpl": {
+                    "AdjacentStringsImpl": {},
+                    "SingleStringLiteralImpl": {
+                        "SimpleStringLiteralImpl": {},
+                        "StringInterpolationImpl": {}
+                    }
+                },
+                "SymbolLiteralImpl": {},
+                "TypedLiteralImpl": {
+                    "ListLiteralImpl": {},
+                    "MapLiteralImpl": {},
+                    "SetLiteralImpl": {}
+                }
+            },
+            "NamedExpressionImpl": {},
+            "ParenthesizedExpressionImpl": {},
+            "PostfixExpressionImpl": {},
+            "PrefixExpressionImpl": {},
+            "PropertyAccessImpl": {},
+            "RethrowExpressionImpl": {},
+            "SuperExpressionImpl": {},
+            "ThisExpressionImpl": {},
+            "ThrowExpressionImpl": {}
+        },
+        "ExtendsClauseImpl": {},
+        "FormalParameterImpl": {
+            "DefaultFormalParameterImpl": {},
+            "NormalFormalParameterImpl": {
+                "FieldFormalParameterImpl": {},
+                "FunctionTypedFormalParameterImpl": {},
+                "SimpleFormalParameterImpl": {}
+            }
+        },
+        "FormalParameterListImpl": {},
+        "FunctionBodyImpl": {
+            "BlockFunctionBodyImpl": {},
+            "EmptyFunctionBodyImpl": {},
+            "ExpressionFunctionBodyImpl": {},
+            "NativeFunctionBodyImpl": {}
+        },
+        "ImplementsClauseImpl": {},
+        "InterpolationElementImpl": {
+            "InterpolationExpressionImpl": {},
+            "InterpolationStringImpl": {}
+        },
+        "LabelImpl": {},
+        "MapLiteralEntryImpl": {},
+        "NativeClauseImpl": {},
+        "OnClauseImpl": {},
+        "ScriptTagImpl": {},
+        "StatementImpl": {
+            "AssertStatementImpl": {},
+            "BlockImpl": {},
+            "BreakStatementImpl": {},
+            "ContinueStatementImpl": {},
+            "DoStatementImpl": {},
+            "EmptyStatementImpl": {},
+            "ExpressionStatementImpl": {},
+            "ForEachStatementImpl": {},
+            "ForStatementImpl": {},
+            "FunctionDeclarationStatementImpl": {},
+            "IfStatementImpl": {},
+            "LabeledStatementImpl": {},
+            "ReturnStatementImpl": {},
+            "SwitchStatementImpl": {},
+            "TryStatementImpl": {},
+            "VariableDeclarationStatementImpl": {},
+            "WhileStatementImpl": {},
+            "YieldStatementImpl": {}
+        },
+        "SwitchMemberImpl": {
+            "SwitchCaseImpl": {},
+            "SwitchDefaultImpl": {}
+        },
+        "TypeAnnotationImpl": {
+            "GenericFunctionTypeImpl": {},
+            "TypeNameImpl": {}
+        },
+        "TypeArgumentListImpl": {},
+        "TypeParameterListImpl": {},
+        "WithClauseImpl": {}
+    },
+    "ChildEntities": {},
+    "CommentType": {},
+    "LocalVariableInfo": {},
+    "NodeListImpl": {},
+    "StringLexemeHelper": {},
+    "UriValidationCode": {},
+    "AstCloner": {
+        "ConstantAstCloner": {}
+    },
+    "AstComparator": {},
+    "ElementLocator": {},
+    "IncrementalAstCloner": {},
+    "NodeReplacer": {},
+    "ResolutionCopier": {},
+    "ToSourceVisitor": {},
+    "ToSourceVisitor2": {},
+    "Scanner": {},
+    "InheritanceManager": {},
+    "MemberMap": {},
+    "MethodInvocationResolver": {},
+    "ImplicitLabelScope": {},
+    "LabelScope": {},
+    "Namespace": {},
+    "NamespaceBuilder": {},
+    "PrefixedNamespace": {},
+    "Scope": {
+        "EnclosedScope": {
+            "BlockScope": {},
+            "ClassScope": {},
+            "ConstructorInitializerScope": {},
+            "FunctionScope": {},
+            "FunctionTypeScope": {},
+            "LibraryScope": {},
+            "TypeParameterScope": {}
+        },
+        "LibraryImportScope": {}
+    },
+    "DefiniteAssignmentTracker": {},
+    "_ElementSet": {},
+    "FlowAnalysis": {},
+    "_ElementSet": {},
+    "_State": {},
+    "PubspecValidator": {},
+    "Workspace": {
+        "GnWorkspace": {},
+        "BazelWorkspace": {},
+        "SimpleWorkspace": {
+            "PubWorkspace": {},
+            "BasicWorkspace": {}
+        },
+        "PackageBuildWorkspace": {}
+    },
+    "WorkspacePackage": {
+        "PubWorkspacePackage": {},
+        "BasicWorkspacePackage": {},
+        "GnWorkspacePackage": {},
+        "BazelWorkspacePackage": {},
+        "PackageBuildWorkspacePackage": {}
+    },
+    "PackageMapInfo": {},
+    "PackageMapProvider": {},
+    "PathFilter": {},
+    "CancelableCompleter": {},
+    "CancelableFuture": {},
+    "FutureCanceledError": {},
+    "_CancelableCompleterFuture": {},
+    "_WrappedFuture": {},
+    "EnginePlugin": {},
+    "ExtensionPointId": {},
+    "OptionsValidator": {
+        "LinterRuleOptionsValidator": {},
+        "CompositeValidator": {
+            "AnalyzerOptionsValidator": {}
+        },
+        "EnabledExperimentsValidator": {},
+        "ErrorFilterOptionValidator": {},
+        "LanguageOptionValidator": {},
+        "StrongModeOptionValueValidator": {},
+        "TopLevelOptionValidator": {
+            "LinterOptionsValidator": {},
+            "TopLevelAnalyzerOptionsValidator": {}
+        }
+    },
+    "ToAnalyzerTokenStreamConverter": {},
+    "FastaErrorReporter": {},
+    "_ParameterDefaultValue": {},
+    "_RedirectingFactoryBody": {},
+    "_OptionalFormalParameters": {},
+    "_OperatorName": {},
+    "_Modifiers": {},
+    "_ConstructorNameWithInvalidTypeArgs": {},
+    "CodeGenerator": {
+        "_TextFormatter": {}
+    },
+    "CodeGeneratorSettings": {},
+    "DartFormat": {},
+    "GeneratedContent": {
+        "GeneratedDirectory": {},
+        "GeneratedFile": {}
+    },
+    "HtmlCodeGenerator": {},
+    "_CodeGeneratorState": {},
+    "_HtmlCodeGeneratorState": {},
+    "HtmlWorkManager": {},
+    "DartScript": {},
+    "ScriptFragment": {},
+    "TaskManager": {},
+    "ConstantTaskInputBuilder": {},
+    "ListTaskInputMixin": {},
+    "MapTaskInputMixin": {},
+    "MapToFlattenListTaskInputBuilder": {},
+    "ObjectToListTaskInputBuilder": {},
+    "SimpleTaskInputBuilder": {},
+    "TaskInputImpl": {
+        "ConstantTaskInput": {},
+        "MapToFlattenListTaskInput": {},
+        "ObjectToListTaskInput": {},
+        "SimpleTaskInput": {
+            "ListTaskInputImpl": {}
+        },
+        "_ListToCollectionTaskInput": {
+            "ListToFlattenListTaskInput": {},
+            "ListToListTaskInput": {},
+            "ListToMapTaskInput": {}
+        },
+        "_ExportSourceClosureTaskInput": {}
+    },
+    "TopLevelTaskInputBuilder": {},
+    "_ListToCollectionTaskInputBuilder": {
+        "ListToFlattenListTaskInputBuilder": {},
+        "ListToListTaskInputBuilder": {},
+        "ListToMapTaskInputBuilder": {}
+    },
+    "_OverrideChecker": {},
+    "OptionsWorkManager": {},
+    "AnalysisDriver": {},
+    "CycleAwareDependencyWalker": {
+        "_WorkOrderDependencyWalker": {}
+    },
+    "ExtendedAnalysisContext": {},
+    "StronglyConnectedComponent": {},
+    "WorkItem": {},
+    "WorkOrder": {},
+    "IgnoreInfo": {},
+    "_NameOrSource": {},
+    "_SourceClosureTaskInputBuilder": {},
+    "InstanceMemberInferrer": {},
+    "_CycleException": {},
+    "_FieldOverrideInferenceResult": {},
+    "LibrarySpecificUnit": {},
+    "AnalysisContextTarget": {},
+    "AnalysisTarget": {
+        "ConstantEvaluationTarget": {}
+    },
+    "AnalysisTask": {
+        "ConstantEvaluationAnalysisTask": {
+            "ComputeConstantDependenciesTask": {},
+            "ComputeConstantValueTask": {},
+            "InferStaticVariableTask": {
+                "ComputeInferableStaticVariableDependenciesTask": {},
+                "InferStaticVariableTypeTask": {}
+            },
+            "ResolveConstantExpressionTask": {}
+        },
+        "SourceBasedAnalysisTask": {
+            "DartScriptsTask": {},
+            "HtmlErrorsTask": {},
+            "ParseHtmlTask": {},
+            "ParseYamlTask": {},
+            "BuildCompilationUnitElementTask": {},
+            "BuildDirectiveElementsTask": {},
+            "BuildEnumMemberElementsTask": {},
+            "BuildExportNamespaceTask": {},
+            "BuildLibraryElementTask": {},
+            "BuildPublicNamespaceTask": {},
+            "BuildSourceExportClosureTask": {},
+            "BuildTypeProviderTask": {},
+            "ComputeLibraryCycleTask": {},
+            "ComputeRequiredConstantsTask": {},
+            "ContainingLibrariesTask": {},
+            "DartErrorsTask": {},
+            "EvaluateUnitConstantsTask": {},
+            "GatherUsedImportedElementsTask": {},
+            "GatherUsedLocalElementsTask": {},
+            "GenerateHintsTask": {},
+            "GenerateLintsTask": {},
+            "InferInstanceMembersInUnitTask": {},
+            "InferStaticVariableTypesInUnitTask": {},
+            "LibraryErrorsReadyTask": {},
+            "LibraryUnitErrorsTask": {},
+            "ParseDartTask": {},
+            "PartiallyResolveUnitReferencesTask": {},
+            "ReadyLibraryElement2Task": {},
+            "ReadyLibraryElement5Task": {},
+            "ReadyLibraryElement7Task": {},
+            "ReadyResolvedUnitTask": {},
+            "ResolveDirectiveElementsTask": {},
+            "ResolvedUnit7InLibraryClosureTask": {},
+            "ResolvedUnit7InLibraryTask": {},
+            "ResolveInstanceFieldsInUnitTask": {},
+            "ResolveLibraryReferencesTask": {},
+            "ResolveLibraryTask": {},
+            "ResolveLibraryTypeNamesTask": {},
+            "ResolveTopLevelLibraryTypeBoundsTask": {},
+            "ResolveTopLevelUnitTypeBoundsTask": {},
+            "ResolveUnitTask": {},
+            "ResolveUnitTypeNamesTask": {},
+            "ResolveVariableReferencesTask": {},
+            "ScanDartTask": {},
+            "StrongModeVerifyUnitTask": {},
+            "VerifyUnitTask": {},
+            "GetContentTask": {},
+            "GenerateOptionsErrorsTask": {}
+        }
+    },
+    "ListResultDescriptor": {},
+    "ListTaskInput": {},
+    "MapTaskInput": {},
+    "ModificationTimeMismatchError": {},
+    "ResultCachingPolicy": {},
+    "ResultDescriptor": {},
+    "TargetedResult": {},
+    "TaskDescriptor": {},
+    "TaskInput": {},
+    "TaskInputBuilder": {},
+    "WorkManager": {},
+    "ResultDescriptorImpl": {
+        "ListResultDescriptorImpl": {}
+    },
+    "SimpleResultCachingPolicy": {},
+    "TaskDescriptorImpl": {},
+    "DartWorkManager": {},
+    "AnalyzerOptions": {},
+    "ErrorBuilder": {
+        "TrueOrFalseValueErrorBuilder": {}
+    },
+    "OptionsFileValidator": {},
+    "_OptionsProcessor": {},
+    "AnalyzerError": {},
+    "AnalyzerErrorGroup": {},
+    "InheritanceOverrideVerifier": {},
+    "_ClassVerifier": {},
+    "PendingError": {},
+    "PendingMissingRequiredParameterError": {},
+    "Linter": {
+        "LintRule": {}
+    },
+    "LintRegistry": {},
+    "AbstractConstExprSerializer": {
+        "_ConstExprSerializer": {}
+    },
+    "AnalysisOptionsForLink": {},
+    "ClassElementForLink": {
+        "ClassElementForLink_Class": {},
+        "ClassElementForLink_Enum": {}
+    },
+    "CompilationUnitElementForLink": {
+        "CompilationUnitElementInBuildUnit": {},
+        "CompilationUnitElementInDependency": {}
+    },
+    "ContextForLink": {},
+    "DependencyWalker": {
+        "ConstDependencyWalker": {},
+        "LibraryCycleDependencyWalker": {},
+        "LibraryDependencyWalker": {},
+        "SimplyBoundedDependencyWalker": {},
+        "TypeInferenceDependencyWalker": {}
+    },
+    "ExecutableElementForLink": {
+        "ExecutableElementForLink_NonLocal": {
+            "ConstructorElementForLink": {
+                "ConstructorElementForLink_Synthetic": {}
+            },
+            "MethodElementForLink": {},
+            "PropertyAccessorElementForLink_Executable": {},
+            "TopLevelFunctionElementForLink": {}
+        },
+        "FunctionElementForLink_Local_NonSynthetic": {},
+        "FunctionElementForLink_Synthetic": {}
+    },
+    "ExprTypeComputer": {},
+    "FieldElementForLink": {
+        "FieldElementForLink_EnumField": {
+            "FieldElementForLink_EnumField_index": {},
+            "FieldElementForLink_EnumField_value": {},
+            "FieldElementForLink_EnumField_values": {}
+        }
+    },
+    "FunctionElementForLink_FunctionTypedParam": {},
+    "FunctionElementForLink_Initializer": {},
+    "FunctionElementForLink_Local": {},
+    "FunctionTypeAliasElementForLink": {},
+    "GenericFunctionTypeElementForLink": {},
+    "GenericTypeAliasElementForLink": {},
+    "InlineFunctionTypeParameterContext": {},
+    "LibraryCycleForLink": {},
+    "Linker": {},
+    "Node": {
+        "ConstNode": {
+            "ConstConstructorNode": {},
+            "ConstParameterNode": {},
+            "ConstVariableNode": {}
+        },
+        "LibraryCycleNode": {},
+        "LibraryNode": {},
+        "SimplyBoundedNode": {},
+        "TypeInferenceNode": {}
+    },
+    "NonstaticMemberElementForLink": {},
+    "ParameterElementForLink": {
+        "FieldFormalParameterElementForLink": {}
+    },
+    "ParameterElementForLink_VariableSetter": {},
+    "ParameterParentElementForLink": {},
+    "PropertyAccessorElementForLink": {},
+    "PropertyAccessorElementForLink_EnumField": {},
+    "PropertyAccessorElementForLink_Variable": {},
+    "SimplyBoundableForLinkMixin": {},
+    "SpecialTypeElementForLink": {},
+    "SyntheticVariableElementForLink": {},
+    "UndefinedElementForLink": {},
+    "VariableElementForLink": {
+        "FieldElementForLink_ClassField": {},
+        "TopLevelVariableElementForLink": {}
+    },
+    "Id": {},
+    "SummaryClass": {},
+    "TopLevel": {},
+    "ConflictingSummaryException": {},
+    "SummaryDataStore": {},
+    "_AnalysisDriverExceptionContextMixin": {},
+    "_AnalysisDriverExceptionFileMixin": {},
+    "_AnalysisDriverResolvedUnitMixin": {},
+    "_AnalysisDriverSubtypeMixin": {},
+    "_AnalysisDriverUnitErrorMixin": {},
+    "_AnalysisDriverUnitIndexMixin": {},
+    "_AnalysisDriverUnlinkedUnitMixin": {},
+    "_CodeRangeMixin": {},
+    "_EntityRefMixin": {},
+    "_LinkedDependencyMixin": {},
+    "_LinkedExportNameMixin": {},
+    "_LinkedLibraryMixin": {},
+    "_LinkedReferenceMixin": {},
+    "_LinkedUnitMixin": {},
+    "_PackageBundleMixin": {},
+    "_PackageIndexMixin": {},
+    "_TopLevelInferenceErrorMixin": {},
+    "_UnitIndexMixin": {},
+    "_UnlinkedClassMixin": {},
+    "_UnlinkedCombinatorMixin": {},
+    "_UnlinkedConfigurationMixin": {},
+    "_UnlinkedConstructorInitializerMixin": {},
+    "_UnlinkedDocumentationCommentMixin": {},
+    "_UnlinkedEnumMixin": {},
+    "_UnlinkedEnumValueMixin": {},
+    "_UnlinkedExecutableMixin": {},
+    "_UnlinkedExportNonPublicMixin": {},
+    "_UnlinkedExportPublicMixin": {},
+    "_UnlinkedExprMixin": {},
+    "_UnlinkedImportMixin": {},
+    "_UnlinkedParamMixin": {},
+    "_UnlinkedPartMixin": {},
+    "_UnlinkedPublicNameMixin": {},
+    "_UnlinkedPublicNamespaceMixin": {},
+    "_UnlinkedReferenceMixin": {},
+    "_UnlinkedTypedefMixin": {},
+    "_UnlinkedTypeParamMixin": {},
+    "_UnlinkedUnitMixin": {},
+    "_UnlinkedVariableMixin": {},
+    "SummaryBasedDartSdk": {},
+    "LibraryResynthesizer": {},
+    "LibraryResynthesizerContextMixin": {
+        "LibraryElementForLink": {
+            "LibraryElementInBuildUnit": {},
+            "LibraryElementInDependency": {}
+        },
+        "_LibraryResynthesizerContext": {}
+    },
+    "LibraryResynthesizerMixin": {
+        "_LibraryResynthesizer": {}
+    },
+    "RecursiveInstantiateToBounds": {},
+    "ReferenceInfo": {
+        "_ReferenceInfo": {}
+    },
+    "SummaryResynthesizerContext": {},
+    "UnitResynthesizer": {
+        "_UnitResynthesizer": {}
+    },
+    "BufferContext": {},
+    "Builder": {},
+    "Offset": {},
+    "Reader": {
+        "BoolListReader": {},
+        "BoolReader": {},
+        "Float64ListReader": {},
+        "Int32Reader": {},
+        "Int8Reader": {},
+        "ListReader": {},
+        "StringReader": {},
+        "TableReader": {},
+        "Uint32ListReader": {},
+        "Uint32Reader": {},
+        "Uint8ListReader": {},
+        "Uint8Reader": {}
+    },
+    "_FbBoolList": {},
+    "_FbList": {
+        "_FbFloat64List": {},
+        "_FbGenericList": {},
+        "_FbUint32List": {},
+        "_FbUint8List": {}
+    },
+    "_VTable": {},
+    "_Scope": {
+        "_TypeParameterScope": {}
+    },
+    "_ScopedEntity": {
+        "_ScopedClassMember": {},
+        "_ScopedTypeParameter": {}
+    },
+    "ApiSignature": {},
+    "SummaryBuilder": {},
+    "_Builder": {},
+    "NameFilter": {},
+    "_ExportNamespace": {},
+    "_Meaning": {
+        "_ClassMeaning": {},
+        "_PrefixMeaning": {}
+    },
+    "_Namespace": {},
+    "_Prelinker": {},
+    "PackageBundleAssembler": {},
+    "ExprBuilder": {}
+
+}

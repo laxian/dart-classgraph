@@ -9,8 +9,8 @@ List<ClassNode> _rootNodes = <ClassNode>[];
 List<Map<String, dynamic>> maps = [];
 
 main(List<String> args) {
-//  var root = MyEnvironmentProvider().getPackagePath('analyzer');
-  var root = '/Users/etiantian/flutter/flutter-0.10.0/packages/flutter/lib/';
+ var root = MyEnvironmentProvider().getPackagePath('kernel');
+  // var root = '/Users/etiantian/flutter/flutter-0.10.0/packages/flutter/lib/';
   print(root);
   var files = new DartFileTraversal().traverse('$root');
 //  files = files.where((f)=>f.uri.path.contains('byte_stream.dart')).toList();
@@ -54,12 +54,17 @@ main(List<String> args) {
     var map = TreeToMapConverter().convert(node);
     maps.add(map);
   }
+  var ret = new Map<String, dynamic>();
+
+  maps.forEach((m)=>ret[m.keys.single]=m.values.single);
+  // 输出全部
+  print(jsonEncode(ret));
   // 关键字模糊过滤
 //  var jsons = maps.map((m) => jsonEncode(m)).toList();
 //  jsons.forEach((j) => print(j));
 //  jsons.where((e)=>e.contains('Widget')).forEach((j)=>print(j));
 
   /// 根节点过滤
-  maps.where((m)=>m.containsKey('Diagnosticable')).map((e)=>jsonEncode(e)).forEach((j)=>print(j));
+  // maps.where((m)=>m.containsKey('Diagnosticable')).map((e)=>jsonEncode(e)).forEach((j)=>print(j));
 
 }

@@ -1,0 +1,349 @@
+{
+    "CoqLib": {},
+    "SanitizeForVM": {},
+    "ContinuationVariables": {},
+    "HelperNodes": {},
+    "ProgramRoot": {},
+    "TreeShaker": {},
+    "_UsingMirrorsException": {},
+    "TransformerFlag": {},
+    "_Pair": {},
+    "MixinFullResolution": {},
+    "InstanceBuilder": {},
+    "EvaluationEnvironment": {},
+    "ConstantsBackend": {},
+    "_AbortCurrentEvaluation": {},
+    "ErrorReporter": {
+        "SimpleErrorReporter": {}
+    },
+    "CoqFieldInfo": {},
+    "CoqClassInfo": {},
+    "CoqLibInfo": {},
+    "VerificationError": {},
+    "Node": {
+        "TreeNode": {
+            "NamedNode": {
+                "Library": {},
+                "Typedef": {},
+                "Class": {},
+                "Member": {
+                    "Field": {},
+                    "Constructor": {},
+                    "RedirectingFactoryConstructor": {},
+                    "Procedure": {}
+                }
+            },
+            "FileUriNode": {},
+            "LibraryDependency": {},
+            "LibraryPart": {},
+            "Combinator": {},
+            "Initializer": {
+                "InvalidInitializer": {},
+                "FieldInitializer": {},
+                "SuperInitializer": {},
+                "RedirectingInitializer": {},
+                "LocalInitializer": {},
+                "AssertInitializer": {}
+            },
+            "FunctionNode": {},
+            "Expression": {
+                "InvalidExpression": {},
+                "VariableGet": {},
+                "VariableSet": {},
+                "PropertyGet": {},
+                "PropertySet": {},
+                "DirectPropertyGet": {},
+                "DirectPropertySet": {},
+                "SuperPropertyGet": {},
+                "SuperPropertySet": {},
+                "StaticGet": {},
+                "StaticSet": {},
+                "InvocationExpression": {
+                    "DirectMethodInvocation": {},
+                    "MethodInvocation": {},
+                    "SuperMethodInvocation": {},
+                    "StaticInvocation": {},
+                    "ConstructorInvocation": {}
+                },
+                "Instantiation": {},
+                "Not": {},
+                "LogicalExpression": {},
+                "ConditionalExpression": {},
+                "StringConcatenation": {},
+                "IsExpression": {},
+                "AsExpression": {},
+                "BasicLiteral": {
+                    "StringLiteral": {},
+                    "IntLiteral": {},
+                    "DoubleLiteral": {},
+                    "BoolLiteral": {},
+                    "NullLiteral": {}
+                },
+                "SymbolLiteral": {},
+                "TypeLiteral": {},
+                "ThisExpression": {},
+                "Rethrow": {},
+                "Throw": {},
+                "ListLiteral": {},
+                "SetLiteral": {},
+                "MapLiteral": {},
+                "AwaitExpression": {},
+                "FunctionExpression": {},
+                "ConstantExpression": {},
+                "Let": {},
+                "LoadLibrary": {},
+                "CheckLibraryIsLoaded": {}
+            },
+            "Arguments": {},
+            "NamedExpression": {},
+            "MapEntry": {},
+            "Statement": {
+                "ExpressionStatement": {},
+                "Block": {},
+                "AssertBlock": {},
+                "EmptyStatement": {},
+                "AssertStatement": {},
+                "LabeledStatement": {},
+                "BreakStatement": {},
+                "WhileStatement": {},
+                "DoStatement": {},
+                "ForStatement": {},
+                "ForInStatement": {},
+                "SwitchStatement": {},
+                "ContinueSwitchStatement": {},
+                "IfStatement": {},
+                "ReturnStatement": {},
+                "TryCatch": {},
+                "TryFinally": {},
+                "YieldStatement": {},
+                "VariableDeclaration": {},
+                "FunctionDeclaration": {}
+            },
+            "SwitchCase": {},
+            "Catch": {},
+            "TypeParameter": {},
+            "Component": {}
+        },
+        "DartType": {
+            "InvalidType": {},
+            "DynamicType": {},
+            "VoidType": {},
+            "BottomType": {},
+            "InterfaceType": {},
+            "FunctionType": {},
+            "TypedefType": {},
+            "TypeParameterType": {}
+        },
+        "NamedType": {},
+        "Supertype": {},
+        "Constant": {
+            "PrimitiveConstant": {
+                "NullConstant": {},
+                "BoolConstant": {},
+                "IntConstant": {},
+                "DoubleConstant": {},
+                "StringConstant": {}
+            },
+            "SymbolConstant": {},
+            "MapConstant": {},
+            "ListConstant": {},
+            "InstanceConstant": {},
+            "PartialInstantiationConstant": {},
+            "TearOffConstant": {},
+            "TypeLiteralConstant": {},
+            "EnvironmentConstant": {
+                "EnvironmentBoolConstant": {},
+                "EnvironmentIntConstant": {},
+                "EnvironmentStringConstant": {}
+            },
+            "UnevaluatedConstant": {}
+        }
+    },
+    "Reference": {},
+    "Name": {
+        "_PrivateName": {},
+        "_PublicName": {}
+    },
+    "ConstantMapEntry": {},
+    "Location": {},
+    "MetadataRepository": {},
+    "BinarySink": {},
+    "BinarySource": {},
+    "Source": {},
+    "Graph": {
+        "TypeVariableGraph": {}
+    },
+    "TargetFlags": {},
+    "Target": {
+        "NoneTarget": {}
+    },
+    "FreshTypeParameters": {},
+    "Substitution": {
+        "_NullSubstitution": {},
+        "_MapSubstitution": {},
+        "_ClassBottomSubstitution": {},
+        "_CombinedSubstitution": {},
+        "_FilteredSubstitution": {}
+    },
+    "_TypeUnification": {},
+    "SubtypeTester": {
+        "TypeEnvironment": {
+            "HierarchyBasedTypeEnvironment": {}
+        }
+    },
+    "ExpressionVisitor": {
+        "ExpressionTagger": {},
+        "Precedence": {}
+    },
+    "StatementVisitor": {},
+    "MemberVisitor": {},
+    "InitializerVisitor": {
+        "SuperInitializerResolutionTransformer": {}
+    },
+    "TreeVisitor": {
+        "Visitor": {
+            "CheckParentPointers": {},
+            "RecursiveVisitor": {
+                "_TreeShakerVisitor": {},
+                "ConstantEvaluator": {},
+                "CoqPass1": {},
+                "CoqPass2": {},
+                "VerifyingVisitor": {},
+                "_ImportTableBuilder": {},
+                "ConstantIndexer": {},
+                "ConstantNamer": {}
+            },
+            "Printer": {
+                "HighlightingPrinter": {}
+            }
+        },
+        "Transformer": {
+            "RecursiveContinuationRewriter": {
+                "ContinuationRewriterBase": {
+                    "SyncStarFunctionRewriter": {},
+                    "AsyncRewriterBase": {
+                        "AsyncStarFunctionRewriter": {},
+                        "AsyncFunctionRewriter": {}
+                    }
+                }
+            },
+            "ExpressionLifter": {},
+            "_TreeShakingTransformer": {},
+            "MethodCallTransformer": {},
+            "ArgumentExtractionForTesting": {},
+            "SuperCallResolutionTransformer": {},
+            "EmptyTransformer": {},
+            "ConstantsTransformer": {},
+            "_ChildReplacer": {}
+        }
+    },
+    "DartTypeVisitor": {
+        "_ExternalTypeVisitor": {},
+        "IsInstantiatedVisitor": {},
+        "_TypeSubstitutor": {
+            "_TopSubstitutor": {},
+            "_InnerTypeSubstitutor": {
+                "_DeepTypeSubstitutor": {}
+            }
+        },
+        "_OccurrenceVisitor": {},
+        "DartTypeTagger": {},
+        "OccurrenceCollectorVisitor": {}
+    },
+    "DartTypeVisitor1": {},
+    "ConstantVisitor": {},
+    "MemberReferenceVisitor": {},
+    "ExpressionVisitor1": {
+        "BodyVisitor1": {}
+    },
+    "StatementVisitor1": {},
+    "LibraryIndex": {},
+    "_ClassTable": {},
+    "_MemberTable": {},
+    "ImportTable": {},
+    "ComponentImportTable": {},
+    "LibraryImportTable": {},
+    "VmConstantsBackend": {},
+    "CanonicalName": {},
+    "CloneVisitor": {
+        "CloneWithoutBody": {}
+    },
+    "BinaryPrinter": {
+        "LimitedBinaryPrinter": {}
+    },
+    "VariableIndexer": {},
+    "LabelIndexer": {},
+    "SwitchCaseIndexer": {},
+    "TypeParameterIndexer": {},
+    "StringIndexer": {},
+    "UriIndexer": {},
+    "BufferedSink": {},
+    "_MetadataSubsection": {},
+    "BytesSink": {},
+    "NotQuiteString": {},
+    "Tag": {},
+    "ConstantTag": {},
+    "ParseError": {},
+    "InvalidKernelVersionError": {},
+    "CanonicalNameError": {},
+    "_ComponentIndex": {},
+    "BinaryBuilder": {
+        "BinaryBuilderWithMetadata": {}
+    },
+    "MixinInferrer": {},
+    "ClassHierarchy": {},
+    "ClassHierarchySubtypes": {},
+    "_ClassInfoSubtype": {},
+    "_ClosedWorldClassHierarchySubtypes": {},
+    "ClosedWorldClassHierarchy": {},
+    "_IntervalListBuilder": {},
+    "_ClassInfo": {},
+    "Tagger": {},
+    "NameTagger": {},
+    "VariableDeclarationTagger": {},
+    "TextIterator": {},
+    "TextSerializationVerificationFailure": {
+        "TextSerializationFailure": {},
+        "TextDeserializationFailure": {},
+        "TextRoundTripFailure": {}
+    },
+    "TextSerializationVerifier": {},
+    "DeserializationEnvironment": {},
+    "SerializationEnvironment": {},
+    "TextSerializer": {
+        "LetSerializer": {},
+        "Nothing": {},
+        "DartString": {},
+        "DartInt": {},
+        "DartDouble": {},
+        "DartBool": {},
+        "Case": {},
+        "Wrapped": {},
+        "ScopedReference": {},
+        "Tuple2Serializer": {},
+        "Tuple3Serializer": {},
+        "Tuple4Serializer": {},
+        "ListSerializer": {},
+        "Optional": {}
+    },
+    "Tuple2": {},
+    "Tuple3": {},
+    "Tuple4": {},
+    "Namer": {
+        "NormalNamer": {}
+    },
+    "Disambiguator": {},
+    "NameSystem": {},
+    "Annotator": {},
+    "ExpressionPrinter": {},
+    "FailureListener": {},
+    "CoreTypes": {},
+    "ErrorFormatter": {},
+    "TypeChecker": {},
+    "TypeCheckingVisitor": {},
+    "Heap": {
+        "_LubHeap": {}
+    },
+    "TypeArgumentIssue": {},
+    "CommandLineHelper": {}
+}
