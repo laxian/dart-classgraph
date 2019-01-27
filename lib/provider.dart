@@ -5,7 +5,6 @@ import 'package:classgraph/abs.dart';
 import 'package:classgraph/class_graph.dart';
 import 'package:classgraph/class_parser.dart';
 
-
 class MyEnvironmentProvider extends EnvironmentProvider {
   getDartHome() {
     ProcessResult result = Process.runSync('which', ['dart']);

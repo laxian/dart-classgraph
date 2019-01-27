@@ -3,7 +3,6 @@ import 'dart:io';
 import 'package:analyzer/analyzer.dart';
 import 'package:classgraph/abs.dart';
 
-
 class EntityClassParser extends ClassParser {
   ClassDeclaration _clazz;
 
@@ -23,9 +22,9 @@ class EntityClassParser extends ClassParser {
     if (compilationUnit.declarations.length < 1) {
       throw Exception('NO CLASS DECLARATION FOUND ERROR!');
     }
-    var classes = compilationUnit.declarations.toList().where((d) =>
-        (d is ClassDeclaration) &&
-        d.name.toString() == name);
+    var classes = compilationUnit.declarations
+        .toList()
+        .where((d) => (d is ClassDeclaration) && d.name.toString() == name);
 
     if (classes == null) {
       throw Exception('No class named $name found');

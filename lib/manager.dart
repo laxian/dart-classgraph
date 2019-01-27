@@ -4,12 +4,11 @@ import 'package:classgraph/class_graph.dart';
 import 'package:classgraph/class_parser.dart';
 import 'package:classgraph/provider.dart';
 
-
 List<ClassNode> _rootNodes = <ClassNode>[];
 List<Map<String, dynamic>> maps = [];
 
 main(List<String> args) {
- var root = MyEnvironmentProvider().getPackagePath('kernel');
+  var root = MyEnvironmentProvider().getPackagePath('code_builder');
   // var root = '/Users/etiantian/flutter/flutter-0.10.0/packages/flutter/lib/';
   print(root);
   var files = new DartFileTraversal().traverse('$root');
@@ -56,7 +55,7 @@ main(List<String> args) {
   }
   var ret = new Map<String, dynamic>();
 
-  maps.forEach((m)=>ret[m.keys.single]=m.values.single);
+  maps.forEach((m) => ret[m.keys.single] = m.values.single);
   // 输出全部
   print(jsonEncode(ret));
   // 关键字模糊过滤
@@ -66,5 +65,4 @@ main(List<String> args) {
 
   /// 根节点过滤
   // maps.where((m)=>m.containsKey('Diagnosticable')).map((e)=>jsonEncode(e)).forEach((j)=>print(j));
-
 }

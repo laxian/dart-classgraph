@@ -1,0 +1,59 @@
+{
+    "Spec": {},
+    "_LazySpec": {},
+    "Allocator": {},
+    "_Allocator": {},
+    "_NullAllocator": {},
+    "_PrefixedAllocator": {},
+    "HasAnnotations": {},
+    "HasAnnotationsBuilder": {},
+    "HasGenerics": {},
+    "HasGenericsBuilder": {},
+    "HasDartDocs": {},
+    "HasDartDocsBuilder": {},
+    "Library": {
+        "_$Library": {}
+    },
+    "LibraryBuilder": {
+        "_$LibraryBuilder": {}
+    },
+    "Expression": {
+        "FunctionType": {
+            "_$FunctionType": {}
+        },
+        "Reference": {},
+        "ClosureExpression": {},
+        "BinaryExpression": {},
+        "InvokeExpression": {},
+        "LiteralExpression": {},
+        "LiteralListExpression": {},
+        "LiteralMapExpression": {},
+        "CodeExpression": {},
+        "TypeReference": {
+            "_$TypeReference": {}
+        }
+    },
+    "ToCodeExpression": {},
+    "ExpressionVisitor": {},
+    "ExpressionEmitter": {},
+    "Directive": {
+        "_$Directive": {}
+    },
+    "DirectiveBuilder": {
+        "_$DirectiveBuilder": {}
+    },
+    "Code": {},
+    "Block": {
+        "_$Block": {}
+    },
+    "BlockBuilder": {
+        "_$BlockBuilder": {}
+    },
+    "CodeVisitor": {},
+    "CodeEmitter": {},
+    "LazyCode": {},
+    "_LazyCode": {},
+    "StaticCode": {},
+    "ScopedCode": {},
+    "SpecVisitor": {}
+}

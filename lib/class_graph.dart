@@ -73,7 +73,7 @@ class ParsedSourceImpl extends ParsedSource {
 
     // 读取源码中的类声明到列表
     _clsList = compilationUnit.declarations
-        .where((item) => item is ClassDeclaration)
+        .whereType<ClassDeclaration>()
         .map((cls) => EntityClassParser.fromClassDeclaration(cls))
         .toList();
   }
@@ -94,10 +94,8 @@ class ParsedSourceImpl extends ParsedSource {
     if (compilationUnit == null) {
       return;
     }
-    List<ImportDirective> directives = compilationUnit.directives
-        .where((d) => d is ImportDirective)
-        .map((f) => f as ImportDirective)
-        .toList();
+    List<ImportDirective> directives =
+        compilationUnit.directives.whereType<ImportDirective>().toList();
 //    print(directives.last.uri.stringValue);
     imports = directives;
   }

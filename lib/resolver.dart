@@ -59,7 +59,7 @@ class PackageImportResolver extends ImportResolver {
     var src = File.fromUri(input);
     var compilationUnit = parseCompilationUnit(src.readAsStringSync());
     var imports =
-        compilationUnit.directives.where((d) => d is ImportDirective).toList();
+        compilationUnit.directives.whereType<ImportDirective>().toList();
     return imports;
   }
 }
